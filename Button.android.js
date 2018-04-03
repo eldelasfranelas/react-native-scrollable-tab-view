@@ -1,9 +1,10 @@
-const React = require('react');
-const ReactNative = require('react-native');
-const {
+import React, {Component} from 'react';
+import {
   TouchableNativeFeedback,
   View,
-} = ReactNative;
+} from 'react-native';
+
+
 
 const Button = (props) => {
   return <TouchableNativeFeedback
@@ -15,4 +16,4 @@ const Button = (props) => {
   </TouchableNativeFeedback>;
 };
 
-module.exports = Button;
+export default Button;
